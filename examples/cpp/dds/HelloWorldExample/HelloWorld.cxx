@@ -39,7 +39,7 @@ HelloWorld::HelloWorld()
     // m_index com.eprosima.idl.parser.typecode.PrimitiveTypeCode@64f6106c
     m_index = 0;
     // m_message com.eprosima.idl.parser.typecode.StringTypeCode@5891e32e
-    m_message ="";
+    m_message = "";
 
 }
 
@@ -232,5 +232,5 @@ void HelloWorld::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
-      
+
 }
